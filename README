@@ -39,3 +39,11 @@ Point your browser at any of these files to get started:
 doc/Manual.html	           the Pizza.py manual
 doc/Section_intro.html	   hi-level introduction to Pizza.py
 doc/Section_install.html   how to install Pizza.py
+
+Extra modules required:
+Pillow-PIL imdirect imageloader PIL pil-compat Pmw PyOpenGL PyOpenGL_accelerate PyOpenGL_game
+
+Manual installation needed for Togl2.0-8.4-Linux.tar.gz :  http://sourceforge.net/projects/togl/
+tar -xzf Togl2.0-8.4-Linux.tar.gz
+cd Togl2.0-8.4-Linux
+cp -r Togl2.0/ $python_package_path/$python_version/site-packages/OpenGL/Tk/togl-linux2-64
